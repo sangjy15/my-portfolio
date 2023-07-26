@@ -6,7 +6,7 @@ export default {
 
 <template>
 	<router-link
-		to="/projects/single-project"
+		:to="{name: 'Single Project', query: {id: project.id}}"
 		class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
 		aria-label="Single Project"
 	>
@@ -25,7 +25,7 @@ export default {
 			</p>
 			<span
 				class="font-general-medium text-lg text-ternary-dark dark:text-ternary-light"
-				>{{ project.category }}</span
+				>{{ project.date }}</span
 			>
 		</div>
 	</router-link>

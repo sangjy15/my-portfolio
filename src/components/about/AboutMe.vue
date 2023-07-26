@@ -6,12 +6,17 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'안녕하세요. 현재 두손 소프트에 재직중인 상진영 대리입니다. '
 				},
 				{
 					id: 2,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						'주요 경력 사항으로는 금융·보험사에서의 4개의 프로젝트 경험이 있습니다. 프로젝트에서 사용한 기술 스택은 Vue.js, java, SVN(형상)입니다.',
+				},
+				{
+					id: 3,
+					bio:
+						'참여 프로젝트에서는 개발자로서 주로 Front-end 개발과 API 연계를 위한 Back-end 개발을 수행했습니다.',
 				},
 			],
 		};
@@ -24,7 +29,7 @@ export default {
 		<!-- About profile image -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
 			<img
-				src="@/assets/images/profile.jpeg"
+				src="@/assets/images/my_profile.jpg"
 				class="rounded-xl w-96"
 				alt=""
 			/>
