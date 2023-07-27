@@ -104,13 +104,10 @@ export default {
 			>
 				{{ projectInfo.projectDetailsHeading }}
 			</p>
-			<p
-				v-for="projectDetail in projectInfo.projectDetails"
-				:key="projectDetail.id"
-				class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-			>
-				{{ projectDetail.details }}
-			</p>
+			<p v-for="projectDetail in projectInfo.projectDetails"
+				:key="projectDetail.id" 
+				v-html="projectDetail.details"
+				class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"></p>
 		</div>
 	</div>
 </template>
